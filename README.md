@@ -11,10 +11,6 @@ Please note that this website is just a prototype and is not linked to any backe
 This app was developed using Flask, a lightweight Python web framework.
 
 ## Installation
-To get started with Vysta, ensure you have Python 3.11 and Flask installed on your system. 
-
-To install Flask, run the command `pip install flask`
-
-Once you've installed the dependencies, you can clone the repository and run the command `python app.py`
-
-The Flask development server will start, and you can access the website by opening your browser and navigating to [http://localhost:5000](http://localhost:5000)
+- Install Python requirements `pip install -r requirements.txt`
+- Start the server for development `python main.py`
+- The Flask development server will start, and you can access the website by opening your browser and navigating to [http://localhost:5000](http://localhost:5000)
