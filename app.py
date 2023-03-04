@@ -12,9 +12,6 @@ app.secret_key = b'_5#y2L"F4Q8z\n\xec]/'
 def index():    
     return render_template('index.html')    
 
-
-
-
 #Products details
 @app.route("/shop/productdetails")
 def productdetails():    
@@ -43,14 +40,12 @@ def wishlist():
 #Men
 @app.route("/shop/productsmen")
 def productsmen():    
-    return render_template('shop/productsmen.html')    
+    return render_template('shop/productsmen.html')   
+ 
 #MenList
 @app.route("/shop/productlistmen")
 def productlistmen():    
     return render_template('shop/productlistmen.html')    
-
-
-
 
 #ComingSoon
 @app.route("/shop/soon")
