@@ -1,4 +1,6 @@
-# Vysta
+![Vysta](https://github.com/arfazkhan/Vysta/blob/master/static/images/logo-dark.png "Vysta")
+
+
 Welcome to Vysta, a simple e-commerce website that offers a seamless shopping experience to both buyers and sellers. The website is inspired by the stunning design of Myntra.com and features a range of functionalities that make online shopping a breeze.
 
 ## Features
