@@ -1,11 +1,9 @@
-from flask import Flask,render_template,request,redirect,flash
-from flask_sqlalchemy import SQLAlchemy
+from flask import Flask,render_template
+
 app = Flask(__name__)
 app.secret_key = b'_5#y2L"F4Q8z\n\xec]/'
 
-app.config['SQLALCHEMY_DATABASE_URI'] = "sqlite:///sozia.db"
-app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
-db= SQLAlchemy(app)
+
 
 
   
